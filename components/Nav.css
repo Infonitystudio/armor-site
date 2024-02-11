@@ -1,0 +1,12 @@
+.Nav__list {
+    padding: 0;
+    list-style: none;
+
+    display: flex;
+    gap: 1em;
+}
+
+.Nav__icon {
+    height: 40px;
+    width: 40px;
+}

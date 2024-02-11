@@ -1,0 +1,21 @@
+@import "/components/tmp.css";
+@import "/components/index.css";
+
+@font-face {
+    font-family: "NeutralFace";
+    src: url("./public/fonts/NeutralFace.otf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "NeutralFace";
+    src: url("./public/fonts/NeutralFace-Bold.otf");
+    font-weight: 800;
+}
+
+:root {
+    --base-font: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: NeutralFace, var(--base-font);
+
+    --hover-time: 0.3s;
+}
